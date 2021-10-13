@@ -1,0 +1,276 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.showcase {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 62%),
+      rgb(0, 0, 0, 100%)
+    ),
+    url("https://i.ytimg.com/vi/qR_tf4OHX2c/maxresdefault.jpg");
+  /* width:100vw; */
+  height: 100vh;
+  background-size: 100vw;
+  background-attachment: fixed;
+}
+
+.showcase-heading {
+  font-family: "Lato", sans-serif;
+  color: white;
+  padding: 15px;
+  font-size: 35px;
+  letter-spacing: 3px;
+}
+
+.showcase-button {
+  margin-left: 17px;
+}
+
+.showcase-content {
+  top: 250px;
+  left: 100px;
+  position: absolute;
+}
+
+.showcase-button button {
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 30px;
+  background: #f63854;
+  color: white;
+  outline: none;
+  transition: transform 0.1s;
+  cursor: pointer;
+}
+
+#show {
+  margin-left: 20px;
+  background: none;
+  color: #f63854;
+  border: 2px solid #f63854;
+}
+
+#bookNow:hover {
+  transform: scale(1.2);
+}
+
+#show:hover {
+  transform: scale(1.2);
+  color: white;
+  background-color: #f63854;
+}
+
+.whom {
+  color: #f63854;
+}
+
+.navLinks {
+  display: flex;
+  color: white;
+  list-style: none;
+  justify-content: flex-end;
+  /* margin-left: 19px; */
+  padding: 15px;
+  /* border: 1px solid; */
+}
+
+.navLinks li {
+  font-size: 20px;
+  font-family: "LATO";
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+.navLinks li a {
+  text-decoration: none;
+  color: white;
+}
+
+.features {
+  height: 100vh;
+  width: 100%;
+  /* border:1px solid black; */
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: grey;
+  margin-top: 70px;
+  justify-content: center;
+}
+
+.features h1 {
+  font-family: "Lato";
+  color: ey;
+  letter-spacing: 2px;
+}
+
+.features-content {
+  /* border: 1px solid; */
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+  margin-top: 14px;
+}
+
+.features-content div {
+  /* border: 1px solid; */
+  height: 270px;
+  width: 270px;
+  /* box-shadow: 1em. 0 0 olive; */
+  box-shadow: 5px 10px 18px #888888;
+  border-radius: 3px;
+}
+
+.underline {
+  height: 5px;
+  background: #f63854;
+  width: 223px;
+  margin-top: 30px;
+}
+
+.feature-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  transition: transform 0.1s;
+}
+
+.feature-block:hover {
+  transform: scale(1.2);
+}
+
+.feature-block i {
+  font-size: 43px;
+  margin-bottom: 13px;
+}
+
+.feature-block h3 {
+  font-size: 20px;
+  font-family: "Lato";
+  margin-bottom: 10px;
+}
+
+.feature-block p {
+  text-align: center;
+}
+
+.steps-content {
+  height: 100vh;
+  /* width: 80%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: grey;
+  margin-top: 70px;
+  justify-content: center;
+  background: #d3d3d3c2;
+}
+
+.steps-content h1 {
+  font-family: "Lato";
+  /* color: ey; */
+  letter-spacing: 2px;
+}
+.steps-block {
+  /* border: 1px solid; */
+  width: 100%;
+  height: 435px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.food-img {
+  width: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.food-img img {
+  height: 231px;
+  width: 150px;
+}
+
+.step-to-follow {
+  /* border: 1px solid; */
+  height: 80%;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  padding-left: 50px;
+}
+
+.number {
+  border: 2px solid #f63854;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  font-size: 31px;
+  text-align: center;
+  margin-right: 10px;
+  color: #f63854;
+}
+
+.step {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* margin-top: 40px; */
+}
+
+.fixed {
+  background: white;
+  color: red;
+  position: fixed;
+  width: 97%;
+}
+
+.reviews {
+  background-image: linear-gradient(rgba(29, 28, 28, 0%), rgba(0, 0, 0, 0.979)),
+    url("./resources/images/mayapur.jpg");
+  /* width:100vw; */
+  height: 100vh;
+  background-size: 100vw;
+  background-attachment: fixed;
+}
+
+.footer {
+  width: 100%;
+  height: 100vh;
+  background: #363333;
+}
+
+.signin-btn {
+  height: 35px !important;
+  color: white;
+  background-color: #f63854 !important;
+  color: white !important;
+  outline: none;
+  border-radius: 15px;
+  border: none;
+  font-size: 15px;
+  font-family: "Lato";
+  cursor: pointer;
+  transition: transform 0.2s;
+  text-align: center;
+}
+
+.signin-btn:hover {
+  transform: scale(1.2);
+}
